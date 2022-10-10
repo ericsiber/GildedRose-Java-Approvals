@@ -1,0 +1,6 @@
+Items[0] = foo, -1, 0
+Items[1] = bar, -1, 0
+Items[2] = qix, 0, 0
+Items[3] = flop, 0, 0
+Items[4] = boom, -1, 0
+Items[5] = qual, -1, 50

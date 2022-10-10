@@ -1,0 +1,5 @@
+Items[0] = Sulfuras, Hand of Ragnaros, 0, 2
+Items[1] = Sulfuras, Hand of Ragnaros, 1, 50
+Items[2] = Sulfuras, Hand of Ragnaros, 1, 1
+Items[3] = Sulfuras, Hand of Ragnaros, -1, 50
+Items[4] = Sulfuras, Hand of Ragnaros, -1, 49
