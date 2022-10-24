@@ -3,7 +3,7 @@ package com.gildedrose;
 import static java.lang.Integer.max;
 import static java.lang.Integer.min;
 
-public interface SellableItem {
+public sealed interface SellableItem permits AgedBrie, BackstagePasses, Conjured, Sulfuras, UndefinedItem {
 
     int LOWEST_QUALITY = 0;
     int HIGHEST_QUALITY = 50;

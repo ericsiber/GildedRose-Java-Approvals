@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class UndefinedItem implements SellableItem {
+public final class UndefinedItem implements SellableItem {
 
     private final Item item;
 

@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class BackstagePasses implements SellableItem {
+public final class BackstagePasses implements SellableItem {
 
     private final Item item;
 

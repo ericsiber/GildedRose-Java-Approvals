@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class Sulfuras implements SellableItem {
+public final class Sulfuras implements SellableItem {
 
     private final Item item;
 

@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class AgedBrie implements SellableItem {
+public final class AgedBrie implements SellableItem {
 
     private final Item item;
 

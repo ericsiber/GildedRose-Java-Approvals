@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-public class Conjured implements SellableItem {
+public final class Conjured implements SellableItem {
 
     private final Item item;
 

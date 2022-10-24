@@ -8,12 +8,12 @@ public class UpdatableItemFactory {
     private static final String CONJURED = "Conjured Mana Cake";
 
     public static SellableItem buildFrom(Item item) {
-        switch (item.name) {
-            case AGED_BRIE: return new AgedBrie(item);
-            case BACKSTAGE_PASSES: return new BackstagePasses(item);
-            case SULFURAS: return new Sulfuras(item);
-            case CONJURED: return new Conjured(item);
-            default: return new UndefinedItem(item);
-        }
+        return switch (item.name) {
+            case AGED_BRIE -> new AgedBrie(item);
+            case BACKSTAGE_PASSES -> new BackstagePasses(item);
+            case SULFURAS -> new Sulfuras(item);
+            case CONJURED -> new Conjured(item);
+            default -> new UndefinedItem(item);
+        };
     }
 }
